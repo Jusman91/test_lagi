@@ -161,7 +161,6 @@ i {
 }   
 .container-about {
     width: 100%;
-    height: 100vh;
     padding: 4em 7em;
 
     
@@ -193,4 +192,19 @@ i {
 }
 .thumbnail p {
     line-height: 30px;
+}
+.outlet {
+    display: flex;
+    padding: 9em 4em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.outlet-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-outlet {
+    padding: 10px;
+    width: 300px;
 }

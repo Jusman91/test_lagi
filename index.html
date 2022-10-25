@@ -7,6 +7,9 @@
     <title>Mila Ttreet Food</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <header class="header">
@@ -85,7 +88,25 @@
                 </div>
             </div>
         </div>
-
     </section>
+    <section>
+        <div class="outlet">
+            <div class="outlet-location" data-aos="flip-right">
+                <img src="image/outlet1.jpg" alt="">
+                <a href="https://goo.gl/maps/EdLPZ2W8zuTAfSsr8"><button class="btn-outlet">Visit</button></a>
+            </div>
+            <div class="outlet-location" data-aos="flip-right">
+                <img src="image/outlet2.jpg" alt="">
+                <a href="https://goo.gl/maps/tYbhbiSFN3cPTe5H8"><button class="btn-outlet">Visit</button></a>
+            </div>
+            <div class="outlet-location" data-aos="flip-right">
+                <img src="image/outlet3.jpg" alt="">
+                <a href="https://goo.gl/maps/ax1S5Puq3Hr9Jnav8"><button class="btn-outlet">Visit</button></a>
+            </div>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
