@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background: blueviolet;
+    z-index: 9999;
+    position: fixed;
+}
+.logo {
+    font-size: 1.8em;
+    margin-left: 50px;
+    color: #fff;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li {
+    list-style: none;
+    padding-right: 50px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+.srch {
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 3px;
+}
+.btn-srch {
+    width: 50px;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.back {
+    background-image: url(image/chicken3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+
+}
+.back .overlay {
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+
+}
+.mid h4 {
+    margin-top: 20px;
+}
+.btn-join {
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.content {
+    background: #171819;
+    width: 100%;
+    padding: 100px;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    box-sizing: border-box;
+    gap: 5px;
+}
+.main {
+    background-image: url(image/bakso.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border: 1px solid white;
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+}
+.num {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+.visit-menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.visit-menu .btn-visit {
+    width: 20vmax;
+    height: 50px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.side {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
+.side img {
+    width: 100%;
+    border: 1px solid white;
+}
+.card-1 {
+    background-color: rgb(207, 206, 206);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+i {
+    font-size: 20px !important;
+}
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 2px;
+    align-items: center;
+}
+.card-item .idr {
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}   
+.container-about {
+    width: 100%;
+    height: 100vh;
+    padding: 4em 7em;
+    
+}
+.container-about h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-part {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 2em;
+}
+.about-msf {
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 50px;
+    
+}
+.about-owner {
+    border-left: 1px solid black;
+    padding: 20px;
+
+}
+.thumbnail img {
+    float: left;
+    margin-top: 10px;
+}
+.thumbnail p {
+    line-height: 30px;
+}
+
+
+
