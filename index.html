@@ -16,26 +16,28 @@
         <h2 class="logo">MSF</h2>
         <nav class="navbar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Outlet</a></li>
-                <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Contact Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#outlet">Outlet</a></li>
+                <li><a href="">Contact Us</a></li>
                 <input class="srch" type="search" name="" placeholder="Type yo task">
                 <a href=""><button class="btn-srch">Find</button></a>
             </ul>
         </nav>
+        <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
+        
     </header>
     <section class="back">
         <div class="overlay"></div>
     </section>
-    <section class="mid">
+    <section id="home" class="mid">
         <h2>Mila Street Food</h2>
         <p>Welcome & Let's Try</p>
         <h4>Join and Get Special Price</h4>
         <a href=""><button class="btn-join">Join</button></a>
     </section>
-    <section>
+    <section id="menu">
         <div class="content">
             <div class="main">
                 <h4>Special Combo</h4>
@@ -72,7 +74,7 @@
         </div>
     </section>
     <section>
-        <div class="container-about">
+        <div id="about">
             <h2>About</h2>
             <div class="about-part">
                 <div class="about-msf">
@@ -90,7 +92,7 @@
         </div>
     </section>
     <section>
-        <div class="outlet">
+        <div id="outlet">
             <div class="outlet-location" data-aos="flip-right">
                 <img src="image/outlet1.jpg" alt="">
                 <a href="https://goo.gl/maps/EdLPZ2W8zuTAfSsr8"><button class="btn-outlet">Visit</button></a>
@@ -108,5 +110,6 @@
     <script>
         AOS.init();
     </script>
+<script src="script.js"></script>
 </body>
 </html>
